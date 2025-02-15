@@ -53,11 +53,12 @@ npm start  # Runs the frontend server
 ![IMG-20250215-WA0014](https://github.com/user-attachments/assets/56715010-db6a-4544-83c4-6e5c41a5091f)
 ![IMG-20250215-WA0015](https://github.com/user-attachments/assets/4e161986-aa41-450b-afcd-8f38beb24ed7)
 ![IMG-20250215-WA0012](https://github.com/user-attachments/assets/fd4b3139-342f-4e37-be26-b6d9d2fff89f)
+![IMG-20250215-WA0007](https://github.com/user-attachments/assets/9a3c48a6-d890-4009-8a6f-125787ec761f)
 ![IMG-20250215-WA0017](https://github.com/user-attachments/assets/b327fd3d-915a-447c-bdce-6926d4d393b7)
 ![IMG-20250215-WA0010](https://github.com/user-attachments/assets/78d98ba3-734b-4e85-8d6a-d376d330f385)
 ![IMG-20250215-WA0008](https://github.com/user-attachments/assets/746092e5-c62a-4d20-b87c-4adf44d48cbb)
 ![IMG-20250215-WA0011](https://github.com/user-attachments/assets/ff0d5ffa-b440-43a6-b2ec-c723fcd02056)
-![IMG-20250215-WA0007](https://github.com/user-attachments/assets/9a3c48a6-d890-4009-8a6f-125787ec761f)
+
 
 ![IMG-20250215-WA0009](https://github.com/user-attachments/assets/3b2eb3ba-e95a-48b0-a840-182e6f24f59b)
 
