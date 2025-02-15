@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login Page</title>
+    <style>
+    body{
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #ffecd2, #fcb69f);
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .container {
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+    
+    .container:hover {
+        transform: translateY(-10px);
+    }
+    
+    h2 {
+        margin-bottom: 20px;
+        color: #2c3e50;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 10px;
+        box-sizing: border-box;
+        background: #ecf0f1;
+        color: #2c3e50;
+    }
+    
+    input:focus {
+        outline: none;
+        box-shadow: 0 0 10px rgba(44, 62, 80, 0.5);
+    }
+    
+    button {
+        width: 100%;
+        padding: 12px;
+        margin-top: 15px;
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    
+    button:hover {
+        background: linear-gradient(135deg, #4e0fa5, #1b4bf5);
+    }
+    
+    .signup {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    
+    .signup a {
+        color: #2575fc;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .signup a:hover {
+        text-decoration: underline;
+    }
+    
+    @media (max-width: 500px) {
+        .container {
+            padding: 20px;
+        }
+    }
+</style>
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" id="username">
+        <input type="password" placeholder="Password" id="password">
+        <button onclick="login()">Login</button>
+        <div class="signup">
+            Don't have an account? <a href="#">Sign Up</a>
+        </div>
+    </div>
+
+
+    <script>
+        function login() {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+    if (username && password) {
+        alert('Login successful!');
+    } else {
+        alert('Please enter username and password.');
+    }
+}
+    </script>
+</body>
+</html>
+

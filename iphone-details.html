@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Product Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            font-family: 'Poppins', sans-serif;
+            cursor: default;
+        }
+
+        .product-container {
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .product-container:hover {
+            transform: scale(1.1);
+        }
+
+        .product-container img {
+            width: 250px;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.5s ease;
+        }
+
+        .product-container:hover img {
+            transform: scale(1.05);
+        }
+
+        .product-container h2 {
+            margin-top: 20px;
+            color: #222;
+            font-size: 1.5em;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .back-button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-container" onclick="window.location.href='iphone-details.html'">
+        <img src="https://via.placeholder.com/250x400.png?text=iPhone" alt="iPhone">
+        <h2>iPhone 15 Pro Max</h2>
+    </div>
+
+    <!-- Product Details Page -->
+    <script>
+        // Simulating product details page
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.location.pathname.includes('iphone-details.html')) {
+                document.body.innerHTML = `
+                    <button class="back-button" onclick="window.history.back()">⬅ Back</button>
+                    <div style="padding: 20px; max-width: 900px; margin: auto;">
+                        <h1>iPhone 15 Pro Max</h1>
+                        <img src="https://via.placeholder.com/250x400.png?text=iPhone" alt="iPhone" style="width:250px; border-radius:20px; margin-bottom:20px;">
+                        <p><strong>Specifications:</strong></p>
+                        <ul>
+                            <li>Display: 6.7-inch Super Retina XDR</li>
+                            <li>Chipset: A17 Bionic</li>
+                            <li>Camera: Triple 48MP system</li>
+                            <li>Battery: 4323 mAh</li>
+                        </ul>
+
+                        <p><strong>Prices on Different Platforms:</strong></p>
+                        <ul>
+                            <li>Amazon: $1,199</li>
+                            <li>Best Buy: $1,179</li>
+                            <li>Apple Store: $1,299</li>
+                        </ul>
+
+                        <p><strong>Ratings & Reviews:</strong></p>
+                        <p>Average Rating: 4.7/5</p>
+                        <p>"Amazing performance and great battery life!"</p>
+                        <p>"Camera quality is next level."</p>
+
+                        <p><strong>Price History:</strong></p>
+                        <ul>
+                            <li>January 2024: $1,299</li>
+                            <li>February 2024: $1,249</li>
+                            <li>March 2024: $1,199</li>
+                        </ul>
+
+                        <p>For more information, visit the official Apple website.</p>
+                    </div>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>

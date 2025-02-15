@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Comparison</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">ComparePrices </a></div>
+        <div class="search-container">
+            <input type="text" placeholder=" Search for products..." id="search-bar">
+            <button id="search-button">Search</button>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Deals</a>
+            <a href="cart.html">Cart</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">signup</a>
+
+        </nav>
+    </header>
+    <section class="brand-section">
+        <div class="brand-container">
+            <div class="brand-slider">
+                <div class="brand-name">Samsung</div>
+                <div class="brand-name">Realme</div>
+                <div class="brand-name">Adidas</div>
+                <div class="brand-name">Lenovo</div>
+                <div class="brand-name">Sony</div>
+                <div class="brand-name">Samsung</div> <!-- Repeating for seamless loop -->
+                <div class="brand-name">Realme</div>
+                <div class="brand-name">Adidas</div>
+                <div class="brand-name">Lenovo</div>
+                <div class="brand-name">Sony</div>
+                <div class="brand-name">Lenovo</div>
+                <div class="brand-name">Sony</div>
+                <div class="brand-name">Samsung</div> <!-- Repeating for seamless loop -->
+                <div class="brand-name">Realme</div>
+                <div class="brand-name">Adidas</div>
+                <div class="brand-name">Lenovo</div>
+                <div class="brand-name">Sony</div>
+                <div class="brand-name">Samsung</div>
+                <div class="brand-name">Realme</div>
+                <div class="brand-name">Adidas</div>
+                <div class="brand-name">Lenovo</div>
+                <div class="brand-name">Sony</div>
+                <div class="brand-name">Samsung</div> <!-- Repeating for seamless loop -->
+                <div class="brand-name">Realme</div>
+                <div class="brand-name">Adidas</div>
+                <div class="brand-name">Lenovo</div>
+                <div class="brand-name">Sony</div>
+                <div class="brand-name">Lenovo</div>
+                <div class="brand-name">Sony</div>
+                <div class="brand-name">Samsung</div> <!-- Repeating for seamless loop -->
+                <div class="brand-name">Realme</div>
+                <div class="brand-name">Adidas</div>
+                <div class="brand-name">Lenovo</div>
+                <div class="brand-name">Sony</div>
+            </div>
+        </div>
+    </section>
+    
+        
+        <!-- Image Slider Banner -->
+        <div class="banner-container">
+            <img class="banner active" src="first.png" alt="iPhone 15 Pro">
+            <img class="banner" src="DALL·E-2023-11-24-12.49.40-A-wide-image-depicting-a-variety-of-fabric-banners.-These-banners-are-displayed-in-an-outdoor-market-setting-hanging-from-wooden-stands-and-flutterin.webp" alt="Fabric Banners">
+            <img class="banner" src="watches 2.png" alt="Gaming Computer Offer">
+            <div class="banner-container">
+                <img class="banner" src="watches-banner.jpg" alt="Watches Collection" onclick="window.location.href='watches.html'">
+            </div>
+            <img class="banner" src="Your paragraph text3.png" alt="Beats Headphones">
+        </div>
+
+        <!-- <div class="circle">
+            <div class="grid-container">
+                <div class="a_sliderContent__Uc7ud">
+                    <a class="a_CategoryItems__0dkPe" href="/category/mobile">
+                        <div class="a_categoryWrapper__S1nxf">
+                            <img src="image.png" alt="mobile">
+                        </div>
+                        <h6>Mobile</h6>
+                    </a>
+                </div>
+                <div class="a_sliderContent__Uc7ud">
+                    <a class="a_CategoryItems__0dkPe" href="/category/laptop">
+                        <div class="a_categoryWrapper__S1nxf">
+                            <img src="image copy.png" alt="laptop">
+                        </div>
+                        <h6>Laptop</h6>
+                    </a>
+                </div>
+                <div class="a_sliderContent__Uc7ud">
+                    <a class="a_CategoryItems__0dkPe" href="/category/appliance">
+                        <div class="a_categoryWrapper__S1nxf">
+                            <img src="Screenshot 2025-02-14 160122.png" alt="appliance">
+                        </div>
+                        <h6>Appliance</h6>
+                    </a>
+                </div>
+                <div class="a_sliderContent__Uc7ud">
+                    <a class="a_CategoryItems__0dkPe" href="/category/clothes">
+                        <div class="a_categoryWrapper__S1nxf">
+                            <img src="clo.jpg" alt="clothes">
+                        </div>
+                        <h6>Clothes</h6>
+                    </a>
+                </div>
+                <div class="a_sliderContent__Uc7ud">
+                    <a class="a_CategoryItems__0dkPe" href="/category/shoes">
+                        <div class="a_categoryWrapper__S1nxf">
+                            <img src="photo-1542291026-7eec264c27ff.jpg" alt="shoes">
+                        </div>
+                        <h6>Shoes</h6>
+                    </a>
+                </div>
+                <div class="a_sliderContent__Uc7ud">
+                    <a class="a_CategoryItems__0dkPe" href="/category/house">
+                        <div class="a_categoryWrapper__S1nxf">
+                            <img src="household-kitchen-appliances-table-indoors-household-kitchen-appliances-table-against-blurred-background-118742692.webp" alt="house">
+                        </div>
+                        <h6>Household</h6>
+                    </a>
+                </div>
+            </div>
+           </div> -->
+
+           <div class="Dropdown"> 
+            <div class="slider">
+                    <div class="category">
+                        <img src="image.png" alt="Mobile">
+                        <h6>Mobile</h6>
+                        <div class="dropdown">
+                            <ul>
+                                <li>Samsung</li>
+                                <li>Apple</li>
+                                <li>OnePlus</li>
+                                <li>Xiaomi</li>
+                                <li>Realme</li>
+                                <li>Google Pixel</li>
+                                <li>Asus</li>
+                                <li>Huawei</li>
+                                <li>Oppo</li>
+                                <li>Vivo</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="image copy.png" alt="Laptop">
+                        <h6>Laptop</h6>
+                        <div class="dropdown">
+                            <ul>
+                                <li>HP</li>
+                                <li>Dell</li>
+                                <li>Lenovo</li>
+                                <li>Apple</li>
+                                <li>Asus</li>
+                                <li>Acer</li>
+                                <li>MSI</li>
+                                <li>Razer</li>
+                                <li>Samsung</li>
+                                <li>Toshiba</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="Screenshot 2025-02-14 160122.png" alt="Appliance">
+                        <h6>Appliance</h6>
+                        <div class="dropdown">
+                            <ul>
+                                <li>Refrigerators</li>
+                                <li>Washing Machines</li>
+                                <li>Microwaves</li>
+                                <li>Dishwashers</li>
+                                <li>Ovens</li>
+                                <li>Air Conditioners</li>
+                                <li>Heaters</li>
+                                <li>Fans</li>
+                                <li>Vacuum Cleaners</li>
+                                <li>Water Purifiers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="clo.jpg" alt="Clothes">
+                        <h6>Clothes</h6>
+                        <div class="dropdown">
+                            <ul>
+                                <li>Shirts</li>
+                                <li>T-Shirts</li>
+                                <li>Jeans</li>
+                                <li>Jackets</li>
+                                <li>Sweaters</li>
+                                <li>Shorts</li>
+                                <li>Dresses</li>
+                                <li>Skirts</li>
+                                <li>Blazers</li>
+                                <li>Tracksuits</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="wa.jpg" alt="Clothes">
+                        <h6>watches</h6>
+                        <div class="dropdown">
+                            <ul>
+                                <li>analog</li>
+                                <li>smart watches</li>
+                                <li> ultra premium</li>
+                                <li>simple</li>
+                                <li>man watch</li>
+                                <li>femal watch</li>
+                    
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="photo-1542291026-7eec264c27ff.jpg" alt="Shoes">
+                        <h6>Shoes</h6>
+                        <div class="dropdown">
+                            <ul>
+                                <li>Sneakers</li>
+                                <li>Boots</li>
+                                <li>Formal Shoes</li>
+                                <li>Sandals</li>
+                                <li>Loafers</li>
+                                <li>Running Shoes</li>
+                                <li>Hiking Boots</li>
+                                <li>Slippers</li>
+                                <li>High Heels</li>
+                                <li>Sports Shoes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="audioengine_a2_b_a2_speaker_system_black_1009387.jpg" alt="Shoes">
+                        <h6>speaker</h6>
+                        <div class="dropdown">
+                            <ul>
+                                <li>sony</li>
+                                <li>Boots</li>
+                                <li>jbl</li>
+                                <li>phylips</li>
+                            
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="71Zt9k2TEYL._SL1500_.jpg" alt="Shoes">
+                        <h6>cover</h6>
+                        <div class="dropdown">
+                            <ul>
+                                <li>pillocover</li>
+                                <li>bad sheet</li>
+                                <li>car cover</li>
+                                <li>bikecover</li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="lights.jpg" alt="Shoes">
+                        <h6>lights</h6>
+                        <div class="dropdown">
+                            <ul>
+                                <li>home</li>
+                                <li>car /bike </li>
+                                <li>decorative</li>
+                                <li>others</li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="Screenshot 2025-02-14 160122.png" alt="House">
+                        <h6>House</h6>
+                        <div class="dropdown">
+                            <ul>
+                                <li>Furniture</li>
+                                <li>Decor</li>
+                                <li>Kitchenware</li>
+                                <li>Bedding</li>
+                                <li>Cleaning Supplies</li>
+                                <li>Gardening Tools</li>
+                                <li>Lights</li>
+                                <li>Curtains</li>
+                                <li>Tools</li>
+                                <li>Electronics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Best Deel In The Laptop</h3>
+            <div class="product-container">
+                <div class="product">
+                    <a href="laptop-details-1.html">
+                        <img src="image1.jpg" alt="Laptop Model 1">
+                    </a>
+                    <div class="product-title">Laptop Model 1</div>
+                    <div class="product-discount">Up to 30% Off</div>
+                </div>
+                <div class="product">
+                    <a href="laptop-details-2.html">
+                        <img src="image2.jpg" alt="Laptop Model 2">
+                    </a>
+                    <div class="product-title">Laptop Model 2</div>
+                    <div class="product-discount">Up to 25% Off</div>
+                </div>
+                <div class="product">
+                    <a href="laptop-details-3.html">
+                        <img src="image3.jpg" alt="Laptop Model 3">
+                    </a>
+                    <div class="product-title">Laptop Model 3</div>
+                    <div class="product-discount">Up to 20% Off</div>
+                </div>
+        
+                <div class="product">
+                    <a href="laptop-details-1.html">
+                        <img src="image4.jpg" alt="Laptop Model 1">
+                    </a>
+                    <div class="product-title">Laptop Model 1</div>
+                    <div class="product-discount">Up to 30% Off</div>
+                </div>
+                <div class="product">
+                    <a href="laptop-details-2.html">
+                        <img src="image5.jpg" alt="Laptop Model 2">
+                    </a>
+                    <div class="product-title">Laptop Model 2</div>
+                    <div class="product-discount">Up to 25% Off</div>
+                </div>
+                <div class="product">
+                    <a href="laptop-details-3.html">
+                        <img src="image1.jpg" alt="Laptop Model 3">
+                    </a>
+                    <div class="product-title">Laptop Model 3</div>
+                    <div class="product-discount">Up to 20% Off</div>
+                </div>
+                <!-- Add more laptop products as needed -->
+            </div>
+            <h3>Best Deel In The Phone
+            </h3>
+            <div class="product-container">
+                <div class="product"><a href="iphone-details.html">
+                    <img src="iphone-15-pro-max-blacktitanium-1.webp"  alt="iphone 15" >
+                </a>
+                    <div class="product-title">Top Selling Stationery</div>
+                    <div class="product-discount">From ₹49</div>
+                </div>
+                <div class="product">
+                    <img src="i phone 14.jpg" alt="iphone 14">
+                    <div class="product-title">iphone 14</div>
+                    <div class="product-discount">Up to 80% Off</div>
+                </div>
+                <div class="product"><a href="aa.html">
+                    <img src="Samsung-Galaxy-S25_featured-image-packshot-review.jpg" alt="samsung s25">
+                    <div class="product-title">samsung s25</div>
+                    <div class="product-discount">Up to 70% Off</div></a>
+                </div>
+                <div class="product">
+                    <img src="Samsung-Galaxy-Z-Flip-6-Blue-2.jpg" alt="samsung z flip">
+                    <div class="product-title">samsung z flip</div>
+                    <div class="product-discount">Up to 40% Off</div>
+                </div>
+                <div class="product">
+                    <img src="realme-gt-5-pro-launched.webp" alt="realme gt 5">
+                    <div class="product-title">realme gt 5</div>
+                    <div class="product-discount">Up to 70% Off</div>
+                </div>
+                <div class="product">
+                    <img src="vivo v 40.jpg" alt="vivo v 40">
+                    <div class="product-title">vivo v 40</div>
+                    <div class="product-discount">From ₹139</div>
+                </div>
+                <div class="product">
+                    <img src="xiaomi-14-ultra-pakistan-priceoye-lsl64-500x500.webp" alt="xiomi 14 ultra">
+                    <div class="product-title">xiomi 14 ultra</div>
+                    <div class="product-discount">Up to 75% Off</div>
+                </div>
+            </div>
+
+        <div class="line"></div>
+      
+<hr>
+        <p>
+            <h6> </p>
+        
+            <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h4>ABOUT</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">compareprice</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Corporate Information</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section">
+                    <h4>GROUP COMPANIES</h4>
+                    <ul>
+                        <li><a href="#">Myntra</a></li>
+                        <li><a href="#">Cleartrip</a></li>
+                        <li><a href="#">Shopsy</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section">
+                    <h4>HELP</h4>
+                    <ul>
+                        <li><a href="#">Payments</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Cancellation & Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section">
+                    <h4>CONSUMER POLICY</h4>
+                    <ul>
+                        <li><a href="#">Cancellation & Returns</a></li>
+                        <li><a href="#">Terms Of Use</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Grievance Redressal</a></li>
+                        <li><a href="#">EPR Compliance</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section">
+                    <h4>Mail Us:</h4>
+                    <p>compair prices Private Limited, <br>
+                        bulding locatesd by jagatpura, <br>
+                        sitapura  <br>
+                        jaipur, 560103, <br>
+                        rajathan, India</p>
+                </div>
+        
+                <div class="footer-section">
+                    <h4>Registered Office Address:</h4>
+                    <p>compair prices Private Limited, <br>
+                        bulding locatesd by jagatpura, <br>
+                        jaipur , <br>
+                        jaipur, 560103, <br>
+                        rajasthan, India</p>
+                    <p>CIN: U51109KA2012PTC066107</p>
+                    <p>Telephone: <a href="tel:044-45614700">044-45614700</a> / 
+                        <a href="tel:044-67415800">044-67415800</a></p>
+                </div>
+            </div>
+        
+            <div class="footer-bottom">
+                <div class="bottom-links">
+                    <a href="#">Become a Seller</a>
+                    <a href="#">Advertise</a>
+                    <a href="#">Gift Cards</a>
+                    <a href="#">Help Center</a>
+                </div>
+                <p>© 2007-2025 compairprices.com</p>
+            </div>
+        </footer>
+        
+
+     
+
+    <script src="script.js"></script>
+    <script>
+        let banners = document.querySelectorAll('.banner');
+        let index = 0;
+        
+        function changeBanner() {
+            banners.forEach(banner => banner.classList.remove('active'));
+            banners[index].classList.add('active');
+            index = (index + 1) % banners.length;
+        }
+        
+        setInterval(changeBanner, 4000);
+    </script>
+    
+    
+</body>
+</html>
