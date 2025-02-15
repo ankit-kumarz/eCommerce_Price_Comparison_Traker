@@ -1,11 +1,10 @@
 # 🛒 eCommerce Price Comparison Tracker Platform
 
 ## 🚀 Overview
-This project is an **AI-powered eCommerce Price Comparison Platform** built for a **hackathon**. It enables users to compare real-time prices of products across multiple platforms like **Flipkart, Amazon, and Croma**, providing an efficient shopping experience with features like **AI-driven price trend analysis, review authenticity filtering, and automated price drop alerts**.
+This project is an **# eCommerce Price Comparison Platform** built in a **hackathon** which is host by IIIT UNA . It enables users to compare real-time prices of products across multiple platforms like **Flipkart, Amazon, and meesho , croma **, providing an efficient shopping experience with features like **AI-driven price trend analysis, review authenticity filtering, and automated price drop alerts**.
 
 ## 🎯 Key Features
 - **Real-Time Price Comparison**: Fetches product prices from different eCommerce platforms.
-- **AI-Powered Price Predictions**: Uses machine learning to analyze trends and forecast price changes.
 - **Authentic Review Filtering**: Detects fake reviews to enhance trust in product ratings.
 - **Price Drop Alerts**: Notifies users when their selected product's price decreases.
 - **User-Friendly UI**: Interactive and responsive frontend with seamless navigation.
@@ -21,7 +20,7 @@ This project is an **AI-powered eCommerce Price Comparison Platform** built for 
 ### Prerequisites
 - Python (3.x)
 - Node.js & npm (for frontend dependencies)
-- MySQL / MongoDB
+- MySQL
 
 ### Steps to Run the Project
 ```sh
@@ -79,7 +78,15 @@ We welcome contributions! If you'd like to enhance the platform, follow these st
 5. Submit a pull request.
 
 ## 📬 Contact
-For queries or collaboration, reach out at: **your.email@example.com**
 
-📌 **GitHub Repository**: [GitHub Link](https://github.com/your-username/ecommerce-price-comparison)
+
+For any questions or feedback, feel free to contact:
+
+Ankit kumar
+
+Email: your-ankitrajj1068@gmail.com
+
+GitHub: ankit1068
+
+📌 **GitHub Repository**: [https://github.com/ankit1068/ECommerce__Price_Comparison_Traker]
 
