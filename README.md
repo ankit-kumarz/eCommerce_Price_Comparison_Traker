@@ -67,6 +67,7 @@ npm start  # Runs the frontend server
 
 ## 🏆 Hackathon Contribution
 This project was built as part of **[Hills The Hack]**, aiming to revolutionize the online shopping experience using AI and real-time data aggregation.
+## Contributor Name: 
 
 ## 📜 License
 This project is licensed under the **MIT License**.
@@ -79,7 +80,7 @@ We welcome contributions! If you'd like to enhance the platform, follow these st
 4. Push to the branch: `git push origin feature-branch`
 5. Submit a pull request.
 
-## 📬 Contact -
+## 📬 Contact 
 
 
 For any questions or feedback, feel free to contact:
