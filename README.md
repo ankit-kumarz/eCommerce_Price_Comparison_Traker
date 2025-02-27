@@ -68,8 +68,8 @@ npm start  # Runs the frontend server
 ## 🏆 Hackathon Contribution
 This project was built as part of **[Hills The Hack]**, aiming to revolutionize the online shopping experience using AI and real-time data aggregation.
 ## Contributor Name: 
-Harshit Khandelwal
-Akash Rajpoot
+Harshit Khandelwal,
+Akash Rajpoot, &
 Lavi Bansal
 
 ## 📜 License
