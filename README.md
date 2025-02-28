@@ -82,7 +82,7 @@ We welcome contributions! If you'd like to enhance the platform, follow these st
 4. Push to the branch: `git push origin feature-branch`
 5. Submit a pull request.
 
-## 📬 Contact 
+## 📬 Contact:
 
 
 For any questions or feedback, feel free to contact:
