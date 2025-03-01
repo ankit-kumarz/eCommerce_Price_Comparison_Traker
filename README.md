@@ -16,13 +16,13 @@ This project is an **# eCommerce Price Comparison Platform** built in a **hackat
 - **APIs & Web Scraping**: REST APIs
 - 
 
-## 📌 Installation & Setup--
+## 📌 Installation & Setup
 ### Prerequisites
 - Python (3.x)
 - Node.js & npm (for frontend dependencies)
 - MySQL
 
-### Steps to Run the Project
+### Steps to Run the Project:
 ```sh
 # Clone the repository
 git clone https://github.com/your-username/ecommerce-price-comparison.git
