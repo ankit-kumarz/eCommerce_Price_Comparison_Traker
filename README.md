@@ -48,7 +48,7 @@ npm start  # Runs the frontend server
 5. Enable **Price Drop Alerts** to get notified about discounts.
 6. View AI-based **price trend analysis** before making a purchase.
 
-## 📸 Screenshots
+## 📸 Screenshots:
 ![IMG-20250215-WA0016](https://github.com/user-attachments/assets/591568e2-cb6d-48e4-822c-baa105bcfce3)
 ![IMG-20250215-WA0014](https://github.com/user-attachments/assets/56715010-db6a-4544-83c4-6e5c41a5091f)
 ![IMG-20250215-WA0015](https://github.com/user-attachments/assets/4e161986-aa41-450b-afcd-8f38beb24ed7)
