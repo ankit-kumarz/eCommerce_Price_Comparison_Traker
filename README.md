@@ -1,7 +1,7 @@
 # 🛒 eCommerce Price Comparison Tracker Platform
 
 ## 🚀 Overview:
-This project is an **# eCommerce Price Comparison Platform** built in a **hackathon** which is host by IIIT UNA . It enables users to compare real-time prices of products across multiple platforms like **Flipkart, Amazon, and meesho , croma **, providing an efficient shopping experience with features like **AI-driven price trend analysis, review authenticity filtering, and automated price drop alerts**.
+This project is an **# eCommerce Price Comparison Platform** built in a **hackathon** which is host by IIIT UNA. It enables users to compare real-time prices of products across multiple platforms like **Flipkart, Amazon, and meesho , croma **, providing an efficient shopping experience with features like **AI-driven price trend analysis, review authenticity filtering, and automated price drop alerts**.
 
 ## 🎯 Key Features:
 - **Real-Time Price Comparison**: Fetches product prices from different eCommerce platforms.
