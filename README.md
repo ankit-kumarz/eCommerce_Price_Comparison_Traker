@@ -9,7 +9,7 @@ This project is an **# eCommerce Price Comparison Platform** built in a **hackat
 - **Price Drop Alerts**: Notifies users when their selected product's price decreases.
 - **User-Friendly UI**: Interactive and responsive frontend with seamless navigation.
 
-## 🔧 Tech Stack:
+## 🔧 Tech Stack:-
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Python (Flask)
 - **Database**: MySQL 
