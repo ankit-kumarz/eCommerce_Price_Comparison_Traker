@@ -68,7 +68,7 @@ This project was built as part of **[Hills The Hack]**, aiming to revolutionize 
 ## Contributor Name:
 Lavi Bansal, 
 Harshit Khandelwal,
-Akash Rajpoot, &
+Akash Rajpoot
 
 
 ## 📜 License
