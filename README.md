@@ -91,7 +91,7 @@ Author - Ankit kumar
 
 Email: your-ankitrajj1068@gmail.com
 
-GitHub: ankit1068
+GitHub: ankit-kumarz
 
-📌 **GitHub Repository**:-- [https://github.com/ankit1068/ECommerce__Price_Comparison_Traker].
+📌 **GitHub Repository**:-- [https://github.com/ankit-kumarz/ECommerce__Price_Comparison_Traker].
 
