@@ -75,7 +75,7 @@ Akash Rajpoot
 This project is licensed under the **MIT License** 
 
 ## 🤝 Contributing
-We welcome contributions! If you'd like to enhance the platform, follow these steps:
+We welcome contributions! If you'd like to enhance the platform, follow these steps: 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature-branch`
 3. Commit your changes: `git commit -m 'Add new feature'`
