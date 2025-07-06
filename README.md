@@ -8,6 +8,7 @@ This project is an **# eCommerce Price Comparison Platform** built in a **hackat
 - **Authentic Review Filtering**: Detects fake reviews to enhance trust in product ratings.
 - **Price Drop Alerts**: Notifies users when their selected product's price decreases.
 - **User-Friendly UI**: Interactive and responsive frontend with seamless navigation.
+  
 ## 🔧 Tech Stack
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Python (Flask)
