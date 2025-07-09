@@ -32,7 +32,7 @@ cd ecommerce-price-comparison
 pip install -r requirements.txt
 
 # Start the backend server
-python app.py  # or python manage.py runserver (for Django) 
+python app.py  # or python manage.py runserver (for Django)
 
 # Install frontend dependencies
 cd frontend
