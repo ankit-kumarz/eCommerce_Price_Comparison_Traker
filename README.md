@@ -20,7 +20,7 @@ This project is an **# eCommerce Price Comparison Platform** built in a **hackat
 ### Prerequisites
 - Python (3.x)
 - Node.js & npm (for frontend dependencies)
-- MySQL
+- MySQL 
 
 ### Steps to Run the Project-- 
 ```sh
