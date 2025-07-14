@@ -12,7 +12,7 @@ This project is an **# eCommerce Price Comparison Platform** built in a **hackat
 ## 🔧 Tech Stack
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Python (Flask) 
-- **Database**: MySQL 
+- **Database**: MySQL  
 - **APIs & Web Scraping**: REST APIs
  
 
