@@ -14,7 +14,7 @@ This project is an **# eCommerce Price Comparison Platform** built in a **hackat
 - **Backend**: Python (Flask) 
 - **Database**: MySQL  
 - **APIs & Web Scraping**: REST APIs 
-
+ 
 
 ## 📌 Installation & Setup:
 ### Prerequisites
