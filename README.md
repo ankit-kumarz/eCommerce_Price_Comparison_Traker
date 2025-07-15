@@ -26,7 +26,7 @@ This project is an **# eCommerce Price Comparison Platform** built in a **hackat
 ```sh
 # Clone the repository 
 git clone https://github.com/your-username/ecommerce-price-comparison.git
-cd ecommerce-price-comparison 
+cd ecommerce-price-comparison  
 
 # Install backend dependencies
 pip install -r requirements.txt
