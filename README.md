@@ -87,7 +87,7 @@ We welcome contributions! If you'd like to enhance the platform, follow these st
 
 For any questions or feedback, feel free to contact:
 
-Author - Ankit kumar
+Author - Ankit kumar 
 
 Email: your-ankitrajj1068@gmail.com 
  
