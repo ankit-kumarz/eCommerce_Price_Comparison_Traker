@@ -15,7 +15,7 @@ This project is an **# eCommerce Price Comparison Platform** built in a **hackat
 - **Database**: MySQL  
 - **APIs & Web Scraping**: REST APIs 
 
-## 📌 Installation & Setup:
+## 📌 Installation & Setup: 
 ### Prerequisites
 - Python (3.x)
 - Node.js & npm (for frontend dependencies) 
