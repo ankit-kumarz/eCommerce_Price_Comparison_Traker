@@ -12,7 +12,7 @@ GOOGLE_SHEET_API_URL = "https://script.google.com/macros/s/AKfycbxFDCl6aKPLLmLmu
 @app.route("/")
 def index():
     """Serve the main index.html file"""
-    return send_from_directory('.', 'index.html')
+    return send_from_directory('.', 'index.html')  
 
 @app.route("/pages/<path:filename>")
 def serve_pages(filename):
@@ -55,3 +55,4 @@ def get_prices():
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
+
