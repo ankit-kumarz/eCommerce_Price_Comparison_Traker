@@ -72,7 +72,7 @@ Akash Rajpoot, Github[https://github.com/Akashrajpoot12].
 
 
 ## 📜 License:
-This project is licensed under the **MIT License**  
+This project is licensed under the **MIT License**   
 
 ## 🤝 Contributing
 We welcome contributions! If you'd like to enhance the platform, follow these steps: 
