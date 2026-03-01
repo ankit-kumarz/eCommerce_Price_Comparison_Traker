@@ -46,7 +46,7 @@ npm start  # Runs the frontend server
 3. Click on a brand (e.g., Samsung, Apple, OnePlus) to view available products.  
 4. Compare prices from multiple eCommerce sites.
 5. Enable **Price Drop Alerts** to get notified about discounts.
-6. View AI-based **price trend analysis** before making a purchase.  
+6. View AI-based **price trend analysis** before making a purchase.   
 
 
 ## 📸 Screenshots
